@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right top, #ff0091, #ef01a8, #d91dbe, #ba33d3, #8f45e6, #823dcf, #7435b8, #672ea2, #61196a, #4a103e, #2b0e1d, #000000);
+}
+
+.clock {
+    font-size: 60px;
+    font-style: italic;
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
